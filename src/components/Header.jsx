@@ -7,7 +7,7 @@ import {
   kajianIslam,
 } from "../assets";
 
-const Header = () => {
+function Header() {
   return (
     <>
       <main className="">
@@ -114,6 +114,6 @@ const Header = () => {
       </main>
     </>
   );
-};
+}
 
 export default Header;
